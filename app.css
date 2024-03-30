@@ -1,3 +1,11 @@
 To create a directory : mkdir directory_name
 To create multiple directories : mkdir folder1 folder2 folder3
 To create directories in sequential order : mkdir folder{1..8}
+
+To remove multiple empty directories : rmdir folder1 folder2 folder3
+To remove directories in sequential order : rmdir folder{1..5}
+To remove all directoires : rmdir *
+To remove all fi les & folder at the same time :
+rm -rf *
+To remove non-empty directories : rm -rf folder_name
+To remove multiple non-empty directories : rm -rf folder1 folder2 folder3                                                         
