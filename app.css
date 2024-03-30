@@ -1,0 +1,3 @@
+To create a directory : mkdir directory_name
+To create multiple directories : mkdir folder1 folder2 folder3
+To create directories in sequential order : mkdir folder{1..8}
